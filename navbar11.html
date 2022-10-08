@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navbar </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+
+            border: 2px solid red;
+            background-color: teal;
+            height: 10vh;
+         
+        }
+        .ul-navbar li{
+
+            list-style: None;
+            padding: .5rem;
+            border: 1px solid yellow;
+            font-weight: bold;
+            font-size: 1.5rem;
+            color: violet;
+            border-radius: 15px;
+
+
+        }
+        .ul-navbar{
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            
+        }
+        .ul-navbar li:hover{
+            background-color: springgreen;
+            cursor: pointer;
+            transition: all ease .5s;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="ul-navbar">
+            <li> Home </li>
+            <li> Service </li>
+            <li> Contact</li>
+            <li> Address</li>
+        </ul>
+    </div>
+</body>
+</html>
